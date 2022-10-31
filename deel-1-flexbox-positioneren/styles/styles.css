@@ -9,14 +9,9 @@
 .opdracht-2 .flex-container {
     display: flex;
     flex-direction: row;
-    /* @todo dat stretchen gebeurd automatisch al, dus mag weg */
-    /*align-items: stretch;*/
 }
 
 .opdracht-2 .flex-item {
-    /* @todo De flex grow en shrink properties kunnen ze niet herleiden uit dit voorbeeld, dus dit mag weg*/
-    /*flex-grow: 1;*/
-    /*flex-shrink: 1;*/
     flex-basis: 240px;
 }
 
@@ -37,8 +32,6 @@
 
 .opdracht-3 .bottom-right {
     align-self: flex-end;
-    /* @todo doet niks, dus dit mag weg*/
-    /*justify-self: flex-end;*/
 }
 
 /*  ------------------- Opdracht 4:  ------------------- */
